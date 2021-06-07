@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{13F81F7D-9AD4-4FAA-9EAB-4C099B1C24CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLogic", "BussinessLogic\BussinessLogic.csproj", "{255FC310-17DD-4BDC-A4AA-3912C3FB2750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{4614B445-46F1-477C-B036-86AA2DB53FB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13F81F7D-9AD4-4FAA-9EAB-4C099B1C24CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F81F7D-9AD4-4FAA-9EAB-4C099B1C24CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F81F7D-9AD4-4FAA-9EAB-4C099B1C24CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F81F7D-9AD4-4FAA-9EAB-4C099B1C24CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255FC310-17DD-4BDC-A4AA-3912C3FB2750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255FC310-17DD-4BDC-A4AA-3912C3FB2750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255FC310-17DD-4BDC-A4AA-3912C3FB2750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255FC310-17DD-4BDC-A4AA-3912C3FB2750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4614B445-46F1-477C-B036-86AA2DB53FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4614B445-46F1-477C-B036-86AA2DB53FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4614B445-46F1-477C-B036-86AA2DB53FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4614B445-46F1-477C-B036-86AA2DB53FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {919FCD72-980D-45CB-8105-A7CCA7B7C9AC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\kamac\source\repos\JugueteriaAppCore\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache

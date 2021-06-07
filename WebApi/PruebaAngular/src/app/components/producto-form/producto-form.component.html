@@ -1,0 +1,42 @@
+<form [formGroup]="validateForm">
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" aria-describedby="nombre" formControlName="nombre" required>
+        <div class="text-danger" *ngIf="validateForm.controls.nombre.invalid && validateForm.controls.nombre.dirty">
+            Por favor, ingresa un nombre.
+        </div>
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+    </div>
+    <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripción</label>
+        <textarea class="form-control" id="descripcion" rows="3" aria-describedby="descripcion" formControlName="descripcion"></textarea>
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+    </div>
+    <div class="mb-3">
+        <label for="precio" class="form-label">Precio</label>
+        <input type="number" class="form-control" id="precio" formControlName="precio" min="1" max="1000" required>
+        <div class="text-danger" *ngIf="validateForm.controls.precio.invalid && validateForm.controls.precio.dirty">
+            Por favor, ingresa un precio entre $1 y $1000
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="restriccionedad" class="form-label">Restricción de edad</label>
+        <input type="number" class="form-control" id="restriccionedad" aria-describedby="restriccionedad" min="1" max="100" formControlName="restriccionedad">
+        <div class="text-danger" *ngIf="validateForm.controls.restriccionedad.invalid && validateForm.controls.restriccionedad.dirty">
+            Por favor, ingresa una edad entre 1 y 100 años
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="compania" class="form-label">Compañía</label>
+        <input type="text" class="form-control" id="compania" aria-describedby="compania" formControlName="compania" required>
+        <div class="text-danger" *ngIf="validateForm.controls.compania.invalid && validateForm.controls.compania.dirty">
+            Por favor, ingresa una compañia.
+        </div>
+    </div>
+    <div class="text-right">
+        <button type="button" class="btn btn-danger pull-right">Cancelar</button>
+        <button type="button" class="btn btn-primary pull-right" (click)="Guardar()">Guardar</button>
+    </div>
+
+</form>
