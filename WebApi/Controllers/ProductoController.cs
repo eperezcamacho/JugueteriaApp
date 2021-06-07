@@ -35,6 +35,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
         public ActionResult<Producto> GetProductoByIdAsync(int id)
         {
             var productos = _productoRepository.GetProductoByIdAsync(id);

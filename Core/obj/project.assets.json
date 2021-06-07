@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kamac\\.nuget\\packages\\": {},
+    "C:\\Users\\eduar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\kamac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\Core\\obj\\",
+      "projectPath": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kamac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

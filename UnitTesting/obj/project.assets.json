@@ -8491,23 +8491,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kamac\\.nuget\\packages\\": {},
+    "C:\\Users\\eduar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\UnitTesting\\UnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\UnitTesting\\UnitTesting.csproj",
       "projectName": "UnitTesting",
-      "projectPath": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\UnitTesting\\UnitTesting.csproj",
-      "packagesPath": "C:\\Users\\kamac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\UnitTesting\\obj\\",
+      "projectPath": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\UnitTesting\\UnitTesting.csproj",
+      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\UnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kamac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8521,8 +8521,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Users\\kamac\\source\\repos\\JugueteriaAppCore\\WebApi\\WebApi.csproj"
+            "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\Users\\eduar\\Documents\\Cursos\\JugueteriaApp\\WebApi\\WebApi.csproj"
             }
           }
         }
@@ -8573,11 +8573,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
