@@ -24,7 +24,29 @@ namespace WebApi.Controllers
         public ActionResult<List<Producto>> GetProductos()
         {
             var productos = _productoRepository.GetProductosAsync();
-            return Ok(productos);
+            if(productos.Count > 0)
+            {
+                return Ok(productos);
+            } else
+            {
+                return NotFound();
+            }
+            
+        }
+
+        [HttpGet]
+        public ActionResult<Producto> GetProductoByIdAsync(int id)
+        {
+            var productos = _productoRepository.GetProductoByIdAsync(id);
+            if (productos.Result != null)
+            {
+                return Ok(productos.Result);
+            }
+            else
+            {
+                return NotFound();
+            }
+
         }
 
         [HttpPost]

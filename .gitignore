@@ -4,6 +4,8 @@
 WebApi/ClientApp
 WebApi/PruebaAngular/node_modules
 WebApi/PruebaAngular/dist
+WebApi/bin/Debug/
+WebApi/obj/Debug/
 
 
 # Only exists if Bazel was run
